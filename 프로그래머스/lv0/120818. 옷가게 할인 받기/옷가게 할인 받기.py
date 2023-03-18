@@ -4,13 +4,13 @@ def solution(price):
     if (price < 100000):
         answer = int(price)
     
-    if (100000 <= price):
+    elif (100000 <= price < 300000):
         answer = int(price * 0.95)
     
-    if (300000 <= price):
+    elif (300000 <= price < 500000):
         answer = int(price * 0.9)
     
-    if (500000 <= price):
+    else:
         answer = int(price * 0.8)
     
     print(answer)
