@@ -10,7 +10,7 @@ def solution(s):
     else :
         answer = True
     
-    print(s.count('p' and 'P'))
-    print(s.count('y' and 'Y'))
+    print(p + P)
+    print(y + Y)
     
     return answer
