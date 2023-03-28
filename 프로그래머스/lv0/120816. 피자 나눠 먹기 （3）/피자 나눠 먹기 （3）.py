@@ -1,7 +1,10 @@
 def solution(slice, n):
-    answer = 1
+    answer = 0
     
-    while ((slice * answer) < n):
-        answer += 1
-        
+    if (n%slice == 0):
+        answer = n//slice
+    
+    else :
+        answer = n//slice + 1
+    
     return answer
