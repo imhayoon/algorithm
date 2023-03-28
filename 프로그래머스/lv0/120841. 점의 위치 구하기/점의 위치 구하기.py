@@ -7,7 +7,7 @@ def solution(dot):
         answer = 2
     elif ((dot[0] < 0) and (dot[1] < 0)):
         answer = 3
-    else:
+    elif ((dot[0] > 0) and (dot[1] < 0)):
         answer = 4
-    
+        
     return answer
