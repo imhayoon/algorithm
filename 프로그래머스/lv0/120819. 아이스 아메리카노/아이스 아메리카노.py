@@ -1,3 +1,6 @@
 def solution(money):
-    answer = [money//5500, money-(5500*(money//5500))]
-    return answer
+  
+    A = money//5500
+    B = money - (A*5500)
+    
+    return [A, B]
