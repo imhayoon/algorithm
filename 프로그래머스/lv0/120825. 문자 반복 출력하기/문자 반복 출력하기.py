@@ -1,8 +1,10 @@
 def solution(my_string, n):
     answer = ''
     
+    A = list(my_string)    
     
-    for i in range(len(my_string)):
-        answer += my_string[i] * n
+    for i in range(len(A)):
+        answer += str(A[i] * n)
+        
     
     return answer
